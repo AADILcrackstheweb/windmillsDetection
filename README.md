@@ -1,4 +1,4 @@
-# Windmill Detection Project
+# Windmill Detection using Satellite Imagery
 
 Welcome to the Windmill Detection Project! This repository focuses on creating a custom dataset for windmill detection using satellite imagery from the Boonidhi portal and developing a custom model for accurate windmill detection.
 
