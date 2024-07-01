@@ -1,4 +1,3 @@
-```markdown
 # Windmill Detection Project
 
 Welcome to the Windmill Detection Project! This repository focuses on creating a custom dataset for windmill detection using satellite imagery from the Boonidhi portal and developing a custom model for accurate windmill detection.
@@ -74,6 +73,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Feel free to contribute to this project by following the above steps. For any issues or queries, please refer to the provided scripts or reach out to the project maintainers.
-
-
-```
