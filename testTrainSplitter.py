@@ -32,12 +32,12 @@ def split_data(source_images, source_labels, dest_paths, train_ratio=0.7):
                 print(f"Error copying {img} and {label}: {e}")
 
 # Specify your directories
-source_images = r'C:\Users\sraad\OneDrive\Documents\project\temp\images\augmented'
-source_labels = r'C:\Users\sraad\OneDrive\Documents\project\temp\labels'
+source_images ='/path/to/your/project/directory/'
+source_labels = '/path/to/your/project/directory/'
 
 dest_paths = {
-    'images': r'C:\Users\sraad\OneDrive\Documents\project\data\images',
-    'labels': r'C:\Users\sraad\OneDrive\Documents\project\data\labels'
+    'images': '/path/to/your/project/directory/',
+    'labels': '/path/to/your/project/directory/''
 }
 
 split_data(source_images, source_labels, dest_paths)
