@@ -2,8 +2,8 @@ from PIL import Image
 import os
 
 # Paths to your images and masks folders
-images_path = r'C:\Users\sraad\OneDrive\Documents\project\temp\images'
-masks_path = r'C:\Users\sraad\OneDrive\Documents\project\temp\masks'
+images_path ='/path/to/your/project/directory/'
+masks_path = '/path/to/your/project/directory/'
 
 # Create directories for augmented images and masks if they do not exist
 augmented_images_path = os.path.join(images_path, 'augmented')
