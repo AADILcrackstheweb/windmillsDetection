@@ -1,0 +1,18 @@
+[out:json][timeout:25];
+
+{{geocodeArea:Gujarat}}->.searchArea; //replace the location name as needed
+
+// Search for windmills in the defined area
+(
+  // Nodes
+  node["power"="generator"]["generator:source"="wind"](area.searchArea);
+  // Ways
+  way["power"="generator"]["generator:source"="wind"](area.searchArea);
+  // Relations
+  relation["power"="generator"]["generator:source"="wind"](area.searchArea);
+);
+
+// Print results
+out body;
+>;
+out skel qt;
